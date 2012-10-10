@@ -23,8 +23,8 @@
         var defaults        = {
 
             // w + h to enforce consistency
-            width           : 1170,
-            height          : 736,
+            width           : 960,
+            height          : 300,
 
             // transition valuess
             animtype        : 'fade',
