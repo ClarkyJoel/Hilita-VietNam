@@ -12,11 +12,8 @@
 	<body>
 		<div id="wrapper">
 			<div id="header">
-				<div id="logo">
-					<a href="index.php"><img src="images/logo.png" alt="Home" /></a>
-					<div id="search"><input type="text" maxlength="255" placeholder="Search" /></div>
-				</div>
-				
+				<div id="logo"><a href="index.php"><img src="images/logo.png" alt="Home" /></a></div>
+				<div id="search"><input type="text" maxlength="255" placeholder="Search" /></div>
 				<div id="navMenu">
 					<ul>
 						<li>
@@ -84,29 +81,15 @@
 					</div>
 					
 					<div class="main-col">
-						<div class="aboutUsIndex boxstyle">
-							<h3 class="title">Giới Thiệu Chung</h3>
-							<div class="imageHolder">
-								<img src="images/banner-about.png" />
+						<div class="danhmuchanghoa boxstyle">
+							<h3 class="title">Danh Mục Hàng Hóa</h3>
+							
+							
+							<div class="paragraph">
+								<p>
+									Nội dung này đang được xây dựng...
+								</p>
 							</div>
-							<p>
-								<strong class="red">Công Ty TNHH Vòng Bi Việt Nam</strong>
-								
-								<p><br>Được thành lập từ năm 1999, qua hơn 10 năm hình thành và phát triển, chúng tôi đã luôn nỗ lực để mang lại cho quý khách hàng những sản phẩm với chất lượng và giá cả cạnh tranh nhất.</p>
-
-								<p><br>Chúng tôi luôn phục vụ trên tinh thần "Tận tâm, Uy tín, Chất lượng" đó là định hướng phát triển thương hiệu của Long Hải.</p>
-
-								<p><br>Chúng tôi nhận cung cấp các loại mặt hàng cho những dự án lớn với đa dạng mẫu mã và chủng loại. Đặc biệt hàng hoá sẽ được phục vụ đến tận nơi (không giới hạn khoảng cách).</p>
-							</p>
-						</div>
-						<div class="sanphamIndex boxstyle">
-							<h3 class="title">Sản Phẩm</h3>
-							<ul>
-								<?php for($i=1; $i<=6; $i++){
-									echo "<li><div class=\"imageHolder\"><img src=\"images/image-item.png\" /></div><div class=\"text\"><a href=\"#\">Vong bi loại".$i." </a></div></li>";
-									};
-								?>
-							</ul>
 						</div>
 					</div>
 					<div class="right-col">

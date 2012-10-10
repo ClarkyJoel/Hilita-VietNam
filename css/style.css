@@ -21,6 +21,7 @@ body{
 
 a{
 	text-decoration: none;
+	color: #737373;
 }
 
 p{
@@ -193,12 +194,13 @@ h3.title{
 	margin-bottom: 15px;
 }
 
-#content .main-col .aboutUs{
+#content .main-col .boxstyle{
 	border: 1px solid #ebeef0;
 	background: #fff;
 	border-radius: 5px;
 	box-shadow: 2px 2px 2px 2px #ccc;
-	
+	overflow: hidden;
+	padding-bottom: 10px;
 }
 
 #content .main-col .aboutUs .imageHolder{
@@ -300,16 +302,68 @@ h3.title{
 }
 
 #search{
-	position: absolute;
-	right: 200px;
+	float: right;
 	padding: 5px 7px;
-	background: url(../images/navmenu-hoverbutton.png) repeat;
+	background: url(../images/search-bg.png) repeat-x;
+	border-radius: 5px;
+	position: relative;
+    right: 20px;
+    top: -15px;
 }
 
 #search input{
 	width: 200px;
 	height: 15px;
 	color: #fff;
-	background: #4f4f4f;
+	background: #4f4f4f url(../images/search-icon.png) 180px 0 no-repeat;
+	
+}
+
+.sanphamthuonghieu ul li{
+	float: left;
+	padding: 10px;
+}
+
+.sanphamthuonghieu .text{
+	text-align: center;
+	
+}
+
+.paragraph{
+	padding: 15px;
+}
+
+#image{
+	border: 3px solid #ccc;
+	height: 320px;
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#image img{
+	width: 300px;
+}
+
+.thumb{
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+	width: 100px;
+}
+
+.hinhanhkhohang .list-thumbs{
+	width: 450px;
+	margin: 0 auto;
+}
+
+.sanphamIndex ul li{
+	float: left;
+	padding: 14px;
+	text-align: center;
+}
+
+.sanphamIndex ul li img{
+	width: 150px;
 	
 }
