@@ -43,20 +43,22 @@
 					</div>
 					
 					<div class="main-col">
-						<div class="aboutUsIndex boxstyle">
+						<div class="aboutUs boxstyle">
 							<h3 class="title">Giới Thiệu Chung</h3>
-							<div class="imageHolder">
+							<div class="image-holder">
 								<img src="images/banner-about.png" />
 							</div>
-							<p>
-								<strong class="red">Công Ty TNHH Hilita Việt Nam</strong>
-								
-								<p><br>Được thành lập từ tháng 9 năm 2012, qua hơn 2 tháng hình thành và phát triển, chúng tôi đã luôn nỗ lực để mang lại cho quý khách hàng những sản phẩm với chất lượng và giá cả cạnh tranh nhất.</p>
+							<div class="paragraph">
+								<p>
+									<strong class="red">Công Ty TNHH Hilita Việt Nam</strong>
+									
+									<p><br>Được thành lập từ tháng 9 năm 2012, qua hơn 2 tháng hình thành và phát triển, chúng tôi đã luôn nỗ lực để mang lại cho quý khách hàng những sản phẩm với chất lượng và giá cả cạnh tranh nhất.</p>
 
-								<p><br>Chúng tôi luôn phục vụ trên tinh thần "Tận tâm, Uy tín, Chất lượng" đó là định hướng phát triển thương hiệu của Long Hải.</p>
+									<p><br>Chúng tôi luôn phục vụ trên tinh thần "Tận tâm, Uy tín, Chất lượng" đó là định hướng phát triển thương hiệu của Long Hải.</p>
 
-								<p><br>Chúng tôi nhận cung cấp các loại mặt hàng cho những dự án lớn với đa dạng mẫu mã và chủng loại. Đặc biệt hàng hoá sẽ được phục vụ đến tận nơi (không giới hạn khoảng cách).</p>
-							</p>
+									<p><br>Chúng tôi nhận cung cấp các loại mặt hàng cho những dự án lớn với đa dạng mẫu mã và chủng loại. Đặc biệt hàng hoá sẽ được phục vụ đến tận nơi (không giới hạn khoảng cách).</p>
+								</p>
+							</div>
 						</div>
 						
 					</div>

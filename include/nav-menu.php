@@ -1,3 +1,4 @@
+
 <ul>
 	<li>
 		<a href="index.php">Trang Chủ</a>
@@ -18,3 +19,29 @@
 		<a href="lien-he.php">Liên Hệ</a>
 	</li>
 </ul>
+
+<!--
+<?php
+/**
+$pages["index"] = "Trang Chủ";
+$pages["gioi-thieu"] = "Giới Thiệu";
+$pages["san-pham-thuong-hieu"] = "Sản Phẩm Thương Hiệu";
+$pages["hinh-anh-kho-hang"] = "Hình Ảnh Kho Hàng";
+$pages["danh-muc-hang-hoa"] = "Danh Mục Hàng Hóa";
+$pages["lien-he"] = "Liên Hệ";
+$active_page = $_GET['page'];
+?>
+
+<ul>
+<?php
+foreach($pages as $page => $page_title)
+{
+  $active = ($page.".php" == $active_page)?" active" : "";
+?>
+   <li class="<?php echo $active ?>"><a href="?page=<?php echo $page?>.php" class="navigation"><?php echo $page_title ?></a></li>
+<?php
+};
+**/
+?>
+</ul>
+-->

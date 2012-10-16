@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 
-<?php $productName="TIMKEN"; ?>
+<?php $productName="FAG"; ?>
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
@@ -38,28 +38,70 @@
 				</script>
 				<div class="clear"></div>
 				<div class="container">
-					<div class="left-col">
-						<div class="danhmucsp">
-							<?php include "include/sanpham-widget.php"; ?>
-						</div>
-					</div>
 					
-					<div class="main-col">
+					<div class="skf-detail-container main-col ">
 						
-						<div class="sanphamIndex boxstyle">
-							<h3 class="title">Vòng bi <?php echo $productName; ?></h3>
-							<ul>
-								<?php for($i=1; $i<=6; $i++){
-									echo "<li><div class=\"imageHolder\"><img src=\"images/image-item.png\" /></div><div class=\"text\"><a href=\"vong-bi-".$productName."-chi-tiet.php"."\">Vong bi ".$productName." loại".$i." </a></div></li>";
-									};
-								?>
-							</ul>
+						<div class="skf-detail boxstyle">
+							<h3 class="title">Chi tiết vòng bi <?php echo $productName; ?></h3>
+							<div class="detail-holder">
+								<div class="image-holder">
+									<img src="images/fag-detail.jpg" />
+								</div>
+								<div class="paragraph">
+								<div class="detail">
+									<h3><strong class="red">Chi tiết vòng bi <?php echo $productName; ?> loại X </strong></h3>
+									<table id="ar_t" style="width: 60%;" border="0" cellspacing="0" cellpadding="0" align="left" class="detail-table">
+									<tbody>
+									<tr>
+									<td>Bearingstypes</td>
+									<td>33213</td>
+									</tr>
+									<tr>
+									<td>new types</td>
+									<td>33213</td>
+									</tr>
+									<tr>
+									<td>old types</td>
+									<td>3007213E bearing</td>
+									</tr>
+									<tr>
+									<td>productstypes</td>
+									<td>33213</td>
+									</tr>
+									<tr>
+									<td>categories</td>
+									<td>TaperedRollerBearings</td>
+									</tr>
+									<tr>
+									<td>brands</td>
+									<td>TIMKEN</td>
+									</tr>
+									<tr>
+									<td>ID d ( mm )</td>
+									<td>65</td>
+									</tr>
+									<tr>
+									<td>OD D ( mm )</td>
+									<td>120</td>
+									</tr>
+									<tr>
+									<td>thickness B ( mm )</td>
+									<td>41</td>
+									</tr>
+									</tbody>
+									</table>
+								</div>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="right-col">
 						<div id="search"><input type="text" maxlength="255" placeholder="Search" /></div>
-						<div class="support">
+						<div class="contactUs boxstyle"><?php include "include/contact-us.php"; ?></div>
+						<div class="support ">
+							
 							<?php include "include/support-widget.php"; ?>
+							
 						</div>
 						<div class="doitac">
 							<ul>

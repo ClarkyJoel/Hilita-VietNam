@@ -50,7 +50,7 @@
 							<h3 class="title">Vòng bi <?php echo $productName; ?></h3>
 							<ul>
 								<?php for($i=1; $i<=6; $i++){
-									echo "<li><div class=\"imageHolder\"><img src=\"images/image-item.png\" /></div><div class=\"text\"><a href=\"#\">Vong bi ".$productName." loại".$i." </a></div></li>";
+									echo "<li><div class=\"imageHolder\"><img src=\"images/image-item.png\" /></div><div class=\"text\"><a href=\"vong-bi-".$productName."-chi-tiet.php"."\">Vong bi ".$productName." loại".$i." </a></div></li>";
 									};
 								?>
 							</ul>

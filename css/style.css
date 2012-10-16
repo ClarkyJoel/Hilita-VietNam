@@ -30,6 +30,7 @@ p{
 
 strong.red{
 	color: red;
+	font-size: 16px;
 }
 
 ul{
@@ -104,7 +105,16 @@ li{
 
 #navMenu ul li a:hover{
 	color: #ff5a00;
+}
 
+#navMenu ul li.active{
+	background: url('../images/navmenu-hoverbutton.png') repeat-x;
+	border-radius: 5px 5px 0 0;
+	border-bottom: 1px solid #fff;
+}
+
+#navMenu ul li.active a{
+	color: #ff5a00;
 }
 
 #content{
@@ -187,7 +197,7 @@ h3.title{
 	margin-bottom: 15px;
 }
 
-#content .main-col .boxstyle{
+.boxstyle{
 	border: 1px solid #ebeef0;
 	background: #fff;
 	border-radius: 5px;
@@ -201,14 +211,11 @@ h3.title{
 	text-align: center;
 }
 
-#content .main-col .aboutUs img{
+.aboutUs img{
 	width: 525px;
-	
 }
 
-#content .main-col .aboutUs p{
-	padding: 10px;
-}
+
 
 #content .right-col .support{
 	border: 1px solid #ebeef0;
@@ -327,6 +334,7 @@ h3.title{
 
 .paragraph{
 	padding: 15px;
+	font-size: 14px;
 }
 
 #image{
@@ -363,3 +371,77 @@ h3.title{
 	width: 150px;
 	
 }
+
+#footer ul.truSo{width: 400px}
+
+#footer ul.truSo h3{margin: 5px 0;}
+
+#footer ul.truSo li{line-height: 20px}
+
+#footer ul.truSo li img{position: relative; top: 3px;}
+
+#content .skf-detail-container{
+	width: 738px;
+	margin: 0 20px;
+}
+
+.image-holder{
+	text-align: center;
+}
+
+.contactUs p{
+	font-size: 12px;
+	padding: 0 5px 0 10px;
+	text-align: justify;
+}
+
+.detail-table td{
+	font-size: 13px;
+	padding: 5px;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.detail-table{
+	border: 1px solid #ccc;
+	border-left: 0;
+	border-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

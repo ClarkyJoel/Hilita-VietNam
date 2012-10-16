@@ -17,9 +17,3 @@
 	</nav>
 	<span class="copyright">&reg; Copyright 2012 Hilitavietnam.com</span>
 </div>
-<style>
-	#footer ul.truSo{width: 400px}
-	#footer ul.truSo h3{margin: 5px 0;}
-	#footer ul.truSo li{line-height: 20px}
-	#footer ul.truSo li img{position: relative; top: 3px;}
-</style>

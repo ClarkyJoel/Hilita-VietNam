@@ -51,7 +51,7 @@
 										<img src="images/skf-logo.png" />
 									</div>
 									<div class="text">
-										<a href="#">Vong bi SKF</a>
+										<a href="vong-bi-skf.php">Vong bi SKF</a>
 									</div>
 								</li>
 								<li>
@@ -59,7 +59,7 @@
 										<img src="images/nsk-logo.png" />
 									</div>
 									<div class="text">
-										<a href="#">Vong bi NSK</a>
+										<a href="vong-bi-nsk.php">Vong bi NSK</a>
 									</div>
 								</li>
 								<li>
@@ -67,7 +67,7 @@
 										<img src="images/timken-logo.png" />
 									</div>
 									<div class="text">
-										<a href="#">Vong bi TIMKEN</a>
+										<a href="vong-bi-timken.php">Vong bi TIMKEN</a>
 										
 									</div>
 								</li>
@@ -76,7 +76,7 @@
 										<img src="images/fag-logo.png" />
 									</div>
 									<div class="text">
-										<a href="#">Vong bi FAG</a>
+										<a href="vong-bi-fag.php">Vong bi FAG</a>
 									</div>
 								</li>
 							</ul>
