@@ -43,28 +43,42 @@
 					</div>
 					
 					<div class="main-col">
-						<div class="aboutUsIndex boxstyle">
-							<h3 class="title">Giới Thiệu Chung</h3>
-							<div class="imageHolder">
-								<img src="images/banner-about.png" />
-							</div>
-							<p>
-								<strong class="red">Công Ty TNHH Hilita Việt Nam</strong>
-								
-								<p><br>Được thành lập từ ngày 17 tháng 9 năm 2012, qua hơn 2 tháng hình thành và phát triển, chúng tôi đã luôn nỗ lực để mang lại cho quý khách hàng những sản phẩm với chất lượng và giá cả cạnh tranh nhất.</p>
-
-								<p><br>Chúng tôi luôn phục vụ trên tinh thần "Tận tâm, Uy tín, Chất lượng" đó là định hướng phát triển thương hiệu của Long Hải.</p>
-
-								<p><br>Chúng tôi nhận cung cấp các loại mặt hàng cho những dự án lớn với đa dạng mẫu mã và chủng loại. Đặc biệt hàng hoá sẽ được phục vụ đến tận nơi (không giới hạn khoảng cách).</p>
-							</p>
-						</div>
-						<div class="sanphamIndex boxstyle">
-							<h3 class="title">Sản Phẩm</h3>
+						<div class="sanphamthuonghieu boxstyle">
+							<h3 class="title">Sản Phẩm Thương Hiệu</h3>
 							<ul>
-								<?php for($i=1; $i<=6; $i++){
-									echo "<li><div class=\"imageHolder\"><img src=\"images/image-item.png\" /></div><div class=\"text\"><a href=\"#\">Vong bi loại".$i." </a></div></li>";
-									};
-								?>
+								<li>
+									<div class="imageHolder">
+										<img src="images/skf-logo.png" />
+									</div>
+									<div class="text">
+										<a href="#">Vong bi SKF</a>
+									</div>
+								</li>
+								<li>
+									<div class="imageHolder">
+										<img src="images/nsk-logo.png" />
+									</div>
+									<div class="text">
+										<a href="#">Vong bi NSK</a>
+									</div>
+								</li>
+								<li>
+									<div class="imageHolder">
+										<img src="images/timken-logo.png" />
+									</div>
+									<div class="text">
+										<a href="#">Vong bi TIMKEN</a>
+										
+									</div>
+								</li>
+								<li>
+									<div class="imageHolder">
+										<img src="images/fag-logo.png" />
+									</div>
+									<div class="text">
+										<a href="#">Vong bi FAG</a>
+									</div>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -92,3 +106,4 @@
 		</div><!--.WRAPPER-->
 	</body>
 </html>
+

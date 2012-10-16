@@ -43,29 +43,15 @@
 					</div>
 					
 					<div class="main-col">
-						<div class="aboutUsIndex boxstyle">
-							<h3 class="title">Giới Thiệu Chung</h3>
-							<div class="imageHolder">
-								<img src="images/banner-about.png" />
+						<div class="hinhanhkhohang boxstyle">
+							<h3 class="title">Hình Ảnh Kho Hàng</h3>
+							<div id="image"><img src="images/1.png" border="0"/></div>
+							<div class="list-thumbs">
+								<a href="#" rel="images/1.png" class="image"><img src="images/1.png" class="thumb" border="0"/></a>
+								<a href="#" rel="images/2.png" class="image"><img src="images/2.png" class="thumb" border="0"/></a>
+								<a href="#" rel="images/3.png" class="image"><img src="images/3.png" class="thumb" border="0"/></a>
+								<a href="#" rel="images/4.png" class="image"><img src="images/4.png" class="thumb" border="0"/></a>
 							</div>
-							<p>
-								<strong class="red">Công Ty TNHH Hilita Việt Nam</strong>
-								
-								<p><br>Được thành lập từ ngày 17 tháng 9 năm 2012, qua hơn 2 tháng hình thành và phát triển, chúng tôi đã luôn nỗ lực để mang lại cho quý khách hàng những sản phẩm với chất lượng và giá cả cạnh tranh nhất.</p>
-
-								<p><br>Chúng tôi luôn phục vụ trên tinh thần "Tận tâm, Uy tín, Chất lượng" đó là định hướng phát triển thương hiệu của Long Hải.</p>
-
-								<p><br>Chúng tôi nhận cung cấp các loại mặt hàng cho những dự án lớn với đa dạng mẫu mã và chủng loại. Đặc biệt hàng hoá sẽ được phục vụ đến tận nơi (không giới hạn khoảng cách).</p>
-							</p>
-						</div>
-						<div class="sanphamIndex boxstyle">
-							<h3 class="title">Sản Phẩm</h3>
-							<ul>
-								<?php for($i=1; $i<=6; $i++){
-									echo "<li><div class=\"imageHolder\"><img src=\"images/image-item.png\" /></div><div class=\"text\"><a href=\"#\">Vong bi loại".$i." </a></div></li>";
-									};
-								?>
-							</ul>
 						</div>
 					</div>
 					<div class="right-col">

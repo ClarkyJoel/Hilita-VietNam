@@ -57,25 +57,19 @@ li{
 
 #banner-fade .bjqs-controls a{
 	text-indent: -9999px;
-	width: 22px;
-	height: 80px;
+	width: 16px;
+	height: 38px;
 }
 
 #banner-fade .bjqs-controls .bjqs-prev a{
 	background: url(../images/prev.png) no-repeat;
 }
 
-#banner-fade .bjqs-controls .bjqs-prev a:hover{
-	background: url(../images/prev-hover.png) no-repeat;
-}
 
 #banner-fade .bjqs-controls .bjqs-next a{
 	background: url(../images/next.png) no-repeat;
 }
 
-#banner-fade .bjqs-controls .bjqs-next a:hover{
-	background: url(../images/next-hover.png) no-repeat;
-}
 
 #header{
 	height: 110px;
@@ -127,7 +121,6 @@ li{
 
 #content .left-col .danhmucsp{
 	width: 200px;
-	min-height: 250px;
 	border: 1px solid #ebeef0;
 	background: #fff;
 	border-radius: 5px;
@@ -201,6 +194,7 @@ h3.title{
 	box-shadow: 2px 2px 2px 2px #ccc;
 	overflow: hidden;
 	padding-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 #content .main-col .aboutUs .imageHolder{
@@ -225,9 +219,14 @@ h3.title{
 }
 
 #content .right-col .support ul li.phone{
-	background: url(../images/phone-icon.png) 20px 5px no-repeat;
+	background: url(../images/phone-icon.png) 10px 0 no-repeat;
 	line-height: 50px;
 }
+
+#content .right-col .support ul li.phone a{
+	padding-left: 30px;
+}
+
 #content .right-col .doitac{
 	border: 1px solid #ebeef0;
 	background: #fff;
@@ -302,20 +301,17 @@ h3.title{
 }
 
 #search{
-	float: right;
 	padding: 5px 7px;
 	background: url(../images/search-bg.png) repeat-x;
 	border-radius: 5px;
-	position: relative;
-    right: 20px;
-    top: -15px;
+	color: #fff;
 }
 
 #search input{
-	width: 200px;
+	width: 183px;
 	height: 15px;
 	color: #fff;
-	background: #4f4f4f url(../images/search-icon.png) 180px 0 no-repeat;
+	background: #4f4f4f url(../images/search-icon.png) 165px 0 no-repeat;
 	
 }
 
@@ -359,7 +355,7 @@ h3.title{
 
 .sanphamIndex ul li{
 	float: left;
-	padding: 14px;
+	padding: 12px;
 	text-align: center;
 }
 
